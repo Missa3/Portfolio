@@ -1,0 +1,18 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #c4cad3;
+}
+
+#content {
+    border: 1px solid black;
+    text-align: center;
+    line-height: 2px;
+}
+
+#projects {
+padding-top: 10%;
+    background-color: red;
+}
