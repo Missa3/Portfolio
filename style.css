@@ -20,7 +20,14 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
-
+ #me{
+   transform:rotate(90deg);
+   -webkit-transform:rotate(90deg);
+   -moz-transform:rotate(90deg);
+   max-width: 500px;
+   width: 30%;
+   border-radius: 50%
+ }
 #navbar {
     margin: 0;
 }
@@ -30,7 +37,7 @@ body {
     text-align: center;
     text-shadow: 2px 2px 3px #000, 2px 2px 5px #565656, 2px 2px 7px #a8a8a8;
     margin: 0;
-    padding: 15% 0 15% 0;
+    padding: 5% 0 15% 0;
 }
 
 h1 {
