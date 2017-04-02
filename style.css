@@ -20,14 +20,16 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
- #me{
-   transform:rotate(90deg);
-   -webkit-transform:rotate(90deg);
-   -moz-transform:rotate(90deg);
-   max-width: 500px;
-   width: 30%;
-   border-radius: 50%
- }
+
+#me {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    border-radius: 50%;
+    width: 200px;
+    margin: 2% auto;
+}
+
 #navbar {
     margin: 0;
 }
@@ -84,9 +86,8 @@ h3:hover {
 
 p {
     font-size: 1.5em;
-    background-color: purple;
     padding-top: 0;
-    width: 100%
+    line-height: 1.5;
 }
 
 .img-responsive {
@@ -97,11 +98,37 @@ p {
 .img-thumbnail {
     margin-bottom: 5%;
 }
-.footer{
-  background: black;
-  margin: 0;
+
+#footer {
+    background-image: url("http://unsplash.com/photos/BeIvjuz6k2k/download?force=true");
+    margin: 0;
+    padding: 2% 3%;
+    background-size: cover;
 }
-nav{
+
+nav {
+    text-align: center;
+    margin: 50px;
+}
+
+#petpal {
+    width: 100%;
+}
+
+
+a{
+  color: inherit;
+}
+a:hover{
+  color: rgb(175, 22, 22);
+
+}
+
+.avatar {
+    width: 200px;
+    margin: 0 auto;
+}
+#bottom{
+  margin: 0 auto;
   text-align: center;
-  margin: 50px;
 }
