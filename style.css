@@ -9,16 +9,99 @@ body {
     color: white;
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a, #portfolio-btt {
-    color: white;
-    transition: text-decoration, font-weight .5s ease;
-    -webkit-transition: text-decoration, font-weight .5s ease;
-    -moz-transition: text-decoration, font-weight .5s ease;
+h1 {
+    font-size: 3.5em;
+    margin-bottom: inherit;
 }
 
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover, #portfolio-btt:hover {
-    text-decoration: underline;
+h2, h4 {
+    margin: 20px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+a, {
+    color: white;
+}
+
+p {
+    font-size: 1.5em;
+    padding-top: 0;
+    line-height: 1.5;
+}
+
+h3 {
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding: 1% 0;
+    transition: background .6s ease;
+    -webkit-transition: background .6s ease;
+    -moz-transition: background .6s ease;
+    background: rgb(175, 22, 22);
+    margin-bottom: 0;
+}
+
+span p {
+    line-height: 250px;
     font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.fa-circle {
+    font-size: 30%;
+    vertical-align: middle;
+}
+
+.fa-angle-double-down {
+    font-size: 150%
+}
+
+.btn-danger {
+    background: rgb(175, 22, 22);
+}
+
+.b {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hoverbox {
+    background: rgba(10, 10, 10, .7);
+    display: none;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    display: inline-block;
+    transition: .6s linear;
+    -moz-transition: .6s linear;
+    -webkit-transition: .6s linear;
+    color: white;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+}
+
+.img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.avatar {
+    width: 200px;
+    margin: 0 auto;
+}
+
+h3:hover, .btn-danger:hover {
+    background: #7a0c02;
+}
+
+.b a:hover .hoverbox {
+    height: 100%;
+    opacity: 1;
 }
 
 #me {
@@ -42,85 +125,6 @@ body {
     padding: 5% 0 15% 0;
 }
 
-h1 {
-    font-size: 3.5em;
-    margin-bottom: inherit;
-}
-
-h2, h4 {
-    margin: 20px;
-}
-
-h4 {
-    margin-bottom: 2px;
-}
-
-.fa-circle {
-    font-size: 30%;
-    vertical-align: middle;
-}
-
-.fa-angle-double-down {
-    font-size: 150%
-}
-h3 {
-    width: 100%;
-    background: black;
-    text-align: center;
-    padding: 1% 0;
-    transition: background .6s ease;
-    -webkit-transition: background .6s ease;
-    -moz-transition: background .6s ease;
-    background: rgb(175, 22, 22);
-    margin-bottom: 0;
-}
-.btn-danger{
-  background: rgb(175, 22, 22);
-}
-h3:hover, .btn-danger:hover {
-    background: #7a0c02;
-}
-
-.b {
-    padding: 0;
-    box-sizing: border-box;
-}
-
-span p {
-    line-height: 100px;
-}
-
-.hoverbox {
-    background: rgba(10, 10, 10, .7);
-    display: none;
-    width: 100%;
-    height: 0%;
-    position: absolute;
-    display: inline-block;
-    transition: .7s linear;
-    color: white;
-    text-align: center;
-    margin: auto;
-    opacity: 1;
-}
-
-.b a:hover .hoverbox {
-    height: 100%;
-    opacity: 1;
-}
-
-p {
-    font-size: 1.5em;
-    padding-top: 0;
-    line-height: 1.5;
-}
-
-.img {
-    width: 100%;
-    border: 1px solid black;
-
-}
-
 #footer {
     background-image: url("http://unsplash.com/photos/BeIvjuz6k2k/download?force=true");
     margin: 0;
@@ -128,23 +132,19 @@ p {
     background-size: cover;
 }
 
-nav {
-    text-align: center;
-    margin: 50px;
-}
-
-a, {
-    color: white;
-}
-
-
-
-.avatar {
-    width: 200px;
-    margin: 0 auto;
-}
-
 #bottom {
     margin: 0 auto;
     text-align: center;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a, #portfolio-btt {
+    color: white;
+    transition: text-decoration, font-weight .5s ease;
+    -webkit-transition: text-decoration, font-weight .5s ease;
+    -moz-transition: text-decoration, font-weight .5s ease;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover, #portfolio-btt:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
