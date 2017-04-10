@@ -41,11 +41,11 @@ h3 {
     -webkit-transition: background .6s ease;
     -moz-transition: background .6s ease;
     background: rgb(175, 22, 22);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 span p {
-    line-height: 250px;
+    line-height: 200px;
     font-weight: bold;
     font-size: 2em;
     text-decoration: underline;
@@ -63,33 +63,38 @@ span p {
 .btn-danger {
     background: rgb(175, 22, 22);
 }
+ .b{
+   background: green;
+   margin-bottom: 10px;
+ }
 
-.b {
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .hoverbox {
     background: rgba(10, 10, 10, .7);
     display: none;
     width: 100%;
-    height: 0;
+    height: 100%;
     position: absolute;
+    left: 0;
     display: inline-block;
     transition: .6s linear;
     -moz-transition: .6s linear;
     -webkit-transition: .6s linear;
     color: white;
     text-align: center;
-    margin: auto;
     opacity: 0;
 }
 
-.img {
+.b img {
+
     width: 100%;
+    margin: 0 auto;
     border: 1px solid black;
 }
-
+.container{
+  width: 100%;
+  margin: 10px auto;
+}
 .avatar {
     width: 200px;
     margin: 0 auto;
@@ -98,7 +103,10 @@ span p {
 h3:hover, .btn-danger:hover {
     background: #7a0c02;
 }
-
+.b a {
+  width: 100%;
+  background: pink;
+}
 .b a:hover .hoverbox {
     height: 100%;
     opacity: 1;
@@ -121,8 +129,9 @@ h3:hover, .btn-danger:hover {
     background: rgb(175, 22, 22);
     text-align: center;
     text-shadow: 2px 2px 3px #000, 2px 2px 5px #565656, 2px 2px 7px #a8a8a8;
-    margin: 0 0 20px 0;
+    margin: 0;
     padding: 5% 0 15% 0;
+    width: 100%;
 }
 
 #footer {
@@ -130,6 +139,7 @@ h3:hover, .btn-danger:hover {
     margin: 0;
     padding: 2% 3%;
     background-size: cover;
+    width: 100%
 }
 
 #bottom {
