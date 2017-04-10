@@ -45,7 +45,7 @@ h3 {
 }
 
 span p {
-    line-height: 200px;
+  margin-top: 17%;
     font-weight: bold;
     font-size: 2em;
     text-decoration: underline;
@@ -61,21 +61,26 @@ span p {
 }
 
 .btn-danger {
-    background: rgb(175, 22, 22);
+    background: rgb(175, 0, 22);
 }
- .b{
-   background: green;
+ .col-lg-6{
    margin-bottom: 10px;
  }
 
 
+ .col-lg-6 img {
+   position: relative;
+     width: 100%;
+     margin: 0 auto;
+ }
 .hoverbox {
     background: rgba(10, 10, 10, .7);
     display: none;
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 0;
+    left: 0px;
+    z-index: 10;
     display: inline-block;
     transition: .6s linear;
     -moz-transition: .6s linear;
@@ -85,12 +90,6 @@ span p {
     opacity: 0;
 }
 
-.b img {
-
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid black;
-}
 .container{
   width: 100%;
   margin: 10px auto;
@@ -103,11 +102,8 @@ span p {
 h3:hover, .btn-danger:hover {
     background: #7a0c02;
 }
-.b a {
-  width: 100%;
-  background: pink;
-}
-.b a:hover .hoverbox {
+
+.col-lg-6 a:hover .hoverbox {
     height: 100%;
     opacity: 1;
 }
