@@ -1,8 +1,9 @@
 var pics =[
   'pics/geekwise.png',
+  'pics/real-estate.png',
   'pics/blocjams.png',
   'pics/instaclone.png',
-    'pics/PetApp.png',
+    // 'pics/PetApp.png',
   'pics/colorgame.png',
   'pics/todolist.png'
 ];
