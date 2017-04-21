@@ -56,31 +56,33 @@ span p {
 .btn-danger {
     background: rgb(175, 0, 22);
 }
-
-
 .b {
-    height: 30vw;
-    position: relative;
+    max-width:450px;
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0px;
-    border: 3px solid  #c4cad3;
+    margin: 15px auto;
 }
 .hoverbox {
     background: rgba(10, 10, 10, .7);
     display: none;
     width: 100%;
-    height: 100%;
+    height: 0px;
     display: inline-block;
-    transition: .6s linear;
-    -moz-transition: .6s linear;
-    -webkit-transition: .6s linear;
+    transition: .8s linear;
+    -moz-transition: .8s linear;
+    -webkit-transition: .8s linear;
     color: white;
     text-align: center;
     opacity: 0;
+    box-sizing: border-box;
+    position: relative;
+    top: 25;
+    left: 105;
 }
-
 .container {
     width: 100%;
     margin: 10px auto;
@@ -93,8 +95,14 @@ h3:hover, .btn-danger:hover {
     background: #7a0c02;
 }
 .b:hover .hoverbox {
-    height: 100%;
+  width: 100%;
+    height: 350px;
     opacity: 1;
+}
+.b:hover{
+  position: relative;
+  top: -5px;
+  left: -5px;
 }
 #me {
     transform: rotate(90deg);
